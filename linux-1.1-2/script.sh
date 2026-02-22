@@ -12,15 +12,15 @@ install() {
 	echo "20"; mkdir -p /usr/lib/trax-software/calculatrax/
 	echo "# Création des dossiers d'installation (2)"; sleep 1
 	echo "60"; cp -r . /usr/lib/trax-software/calculatrax
-	echo "# Installation des fichiers"; sleep 2
+	echo "# Installation des fichiers"; chmod 755 /usr/lib/trax-software && sleep 2
 	echo "75"; cp CalculaTraX.desktop /usr/share/applications
-	echo "# Installation des raccourcis"; sleep 1
+	echo "# Installation des raccourcis"; chmod 755 /usr/share/applications/CalculaTraX.desktop && sleep 1
 	echo "85"; chmod +x calculatrax
 	echo "# Installation des raccourcis"; sleep 0.5
 	echo "95"; cp calculatrax /usr/bin
-	echo "# Installation des raccourcis"; sleep 1
+	echo "# Installation des raccourcis"; chmod 755 /usr/bin/calculatrax && sleep 1
 	echo "98"; update-desktop-database --quiet /usr/share/applications/
-	echo "# Finalisation de l'installation /n et rechargement de la base de données"; sleep 1
+	echo "# Finalisation de l'installation et rechargement de la base de données"; sleep 1
 	echo "100"; echo "Installation finalisée"
 	echo "# Installation terminée."; sleep 3
 	) |
@@ -36,6 +36,7 @@ install() {
 if zenity --question --text="Voulez-vous continuer ?"
 then
 	install
+	rm /usr/lib/trax-software/calculatrax/script.sh
 else
 	zenity --warning --title "Annulation" --text "Installation annulée."
 fi
