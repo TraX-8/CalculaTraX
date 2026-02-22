@@ -1,5 +1,5 @@
 # CalculaTraX
-## Calculatrice (par *TraX Software*)
+## Calculatrice (par [*TraX Software*](http://trax8.fr.nf/trax-software))
 ---
 > Comment installer l'application via la dépôt **GitHub** (pour Linux) ?
 1. Télécharger l'archive compressée du code (fichier `.tar.gz`)
