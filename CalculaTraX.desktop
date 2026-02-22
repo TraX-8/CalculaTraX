@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=CalculaTraX
+Version=1.1
+Type=Application
+NoDisplay=false
+Terminal=false
+Icon=/usr/lib/trax-software/calculatrax/icon.png
+Exec=python3 /usr/lib/trax-software/calculatrax/CalculaTraX+.py
+Actions=button-mode;
+[Desktop Action button-mode]
+Name=Button Mode (Nouveau)
+Comment=Lancer CalculaTraX en mode boutons
+Exec=python3 /usr/lib/trax-software/calculatrax/CalculaTraX++.py
+Terminal=false
