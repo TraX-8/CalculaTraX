@@ -12,7 +12,7 @@ install() {
 	echo "20"; mkdir -p /usr/lib/trax-software/calculatrax/
 	echo "# Création des dossiers d'installation (2)"; sleep 1
 	echo "60"; cp -r . /usr/lib/trax-software/calculatrax
-	echo "# Installation des fichiers"; chmod 755 /usr/lib/trax-software && sleep 2
+	echo "# Installation des fichiers"; chmod -R 755 /usr/lib/trax-software && sleep 2
 	echo "75"; cp CalculaTraX.desktop /usr/share/applications
 	echo "# Installation des raccourcis"; chmod 755 /usr/share/applications/CalculaTraX.desktop && sleep 1
 	echo "85"; chmod +x calculatrax
