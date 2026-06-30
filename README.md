@@ -2,7 +2,7 @@
 ## Calculatrice (par [*TraX Software*](http://trax8.fr.nf/trax-software))
 ---
 Outdated doc
-||> Comment installer l'application via la dépôt **GitHub** (pour Linux) ?
+||> Comment installer l'application via la dépôt **GitHub** (pour Linux) ?||
 1. Télécharger le fichier `.sh` correspondant à votre système d'exploitation dans le dossier "linux-dependencies" (Pour savoir quel fichier télécharger, faire la commande `apt` (si il n'y a pas d'erreur, téléchargez la version apt), sinon, faire la commande `dnf` (si il n'y a pas d'erreur, téléchargez la version dnf).
 2. Ouvrez un terminal dans le dossier où le script s'est téléchargé, et entrez la commande `sudo bash nomdufichier.sh` (remplacer "nomdufichier" par le nom du fichier que vous avez téléchargé)
 3. Télécharger l'archive compressée du code (fichier `linux-X.X.tar.gz`)
