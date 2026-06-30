@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <metadata_license>FSFAP</metadata_license>
+  <project_license>MIT</project_license>
+  
+  <launchable type="desktop-id">net.ddns.trax.CalculaTraX.desktop</launchable>
+  <id>net.ddns.trax.CalculaTraX</id>
+  <name>CalculaTraX</name>
+  
+  <developer id="net.ddns.trax">
+    <name>TraX Software</name>
+  </developer>
+  
+  <provides>
+    <binary>calculatrax</binary>
+  </provides>
+
+  <languages>
+    <lang percentage="100">en</lang>
+  </languages>
+  
+  <summary>A powerful, versatile, and user-friendly calculator</summary>
+  <description>
+    <p>This calculator allows you to calculate quickly and with ease, and it has a comfortable interface.</p>
+  </description>
+
+  <url type="homepage">https://trax.ddns.net/trax-software/calculatrax</url>
+  <url type="bugtracker">https://trax.ddns.net/trax-software/pages/discord-communaut%C3%A9.html</url>
+  <url type="vcs-browser">https://github.com/TraX-8/CalculaTraX/</url>
+
+  <recommends>
+    <control>pointing</control>
+    <control>keyboard</control>
+    <control>touch</control>
+  </recommends>
+
+  <content_rating type="oars-1.1">
+    <content_attribute id="social-chat">none</content_attribute>
+    <content_attribute id="social-info">none</content_attribute>
+    <content_attribute id="social-audio">none</content_attribute>
+    <content_attribute id="social-location">none</content_attribute>
+    <content_attribute id="social-contacts">none</content_attribute>
+    <content_attribute id="violence-cartoon">none</content_attribute>
+    <content_attribute id="violence-fantasy">none</content_attribute>
+    <content_attribute id="violence-realistic">none</content_attribute>
+    <content_attribute id="violence-bloodshed">none</content_attribute>
+    <content_attribute id="language-humor">none</content_attribute>
+    <content_attribute id="language-discrimination">none</content_attribute>
+    <content_attribute id="money-advertising">none</content_attribute>
+    <content_attribute id="money-purchasing">none</content_attribute>
+  </content_rating>
+
+  <releases>
+    <release version="1.3" date="2026-06-29">
+      <description>
+        <ul>
+          <li>Code rewritten from scratch</li>
+          <li>Use of functions, classes, and libraries to calculate and for the GUI</li>
+          <li>Added a splash screen to the graphical version</li>
+          <li>Added an English version and removed French version (French version will come back in a future update)</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+</component>

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=CalculaTraX
+Comment=A powerful, versatile, and user-friendly calculator
+Version=1.3
+Type=Application
+Categories=Utility;Calculator;
+Terminal=false
+StartupNotify=true
+Icon=net.ddns.trax.CalculaTraX
+Exec=python3 /usr/lib/trax-software/calculatrax/main+.py
